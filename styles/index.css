@@ -1,18 +1,1 @@
-.container {
-  padding-top: 70px;
-}
-
-h1 {
-  font-size: 105px;
-  font-family: "Courier Prime", monospace;
-}
-
-mark {
-  padding: 0px;
-}
-
-body {
-  background-color: #FF4B75;
-  height: auto;
-  margin: 20px;
-}
+.container{padding-top:50px}h1{font-size:105px;font-family:"Courier Prime",monospace}mark{padding:0px}ul{list-style:none}li{font-family:"Montserrat",sans-serif;color:black;letter-spacing:2px;font-weight:500;font-size:18px}a{text-decoration:none}a:hover{cursor:pointer;-webkit-text-decoration:underline solid 3px black;text-decoration:underline solid 3px black;letter-spacing:5px}body{background-color:#FF4B75;height:auto;margin:20px}
