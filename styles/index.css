@@ -1,7 +1,18 @@
+.container {
+  padding-top: 70px;
+}
+
+h1 {
+  font-size: 105px;
+  font-family: "Courier Prime", monospace;
+}
+
+mark {
+  padding: 0px;
+}
+
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #cfc4fa), to(#fcc6c6));
-  background-image: linear-gradient(#cfc4fa 40%, #fcc6c6);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-color: #FF4B75;
+  height: auto;
+  margin: 20px;
 }
