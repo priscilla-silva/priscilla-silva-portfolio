@@ -5,30 +5,16 @@
   h1 {
     font-size: 105px;
     font-family: "Courier Prime", monospace;
-    // overflow: hidden;
-    // border-right: 10px solid black;
-    // margin: 0 auto;
-    // animation: 
-    // typing 3.5s steps(64, end),
-    // blink-caret .75s step-end infinite;
   }
-
-//   @keyframes typing {
-//     from { width: 0 }
-//     to { width: 100% }
-//   }
-  
-//   @keyframes blink-caret {
-//     from, to { border-color: transparent }
-//     50% { border-color: black; }
-//   }
   
   mark {
     padding: 0px;
+    background-color: white;
   }
   
   .animate__slideInUp {
       animation-duration: 2s;
+      overflow: hidden;
   }
 
   

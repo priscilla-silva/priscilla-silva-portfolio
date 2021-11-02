@@ -1,0 +1,71 @@
+.animate__slideInDown {
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    overflow: hidden;
+}
+
+form {
+    font-family: variables.$heading-font;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#name {
+    width: 500px;
+    height: 100px;
+    font-size: 60px;
+    padding-left: 20px;
+    border: 0px;
+    outline: none;
+    transition: 0.1s;
+    &:focus {
+        border: 1.5px solid black;
+    }
+}
+
+#email {
+    width: 700px;
+    height: 100px;
+    font-size: 60px;
+    padding-left: 20px;
+    border: 0px;
+    outline: none;
+    transition: 0.1s;
+    &:focus {
+        border: 1.5px solid black;
+    }
+}
+
+#message {
+    font-size: 60px;
+    width: 700px;
+    height: 200px;
+    padding-left: 20px;
+    border: 0px;
+    outline: none;
+    transition: 0.1s;
+    &:focus {
+        border: 1.5px solid black;
+    }
+
+}
+
+#submit {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    font-family: variables.$main-font;
+    letter-spacing: 5px;
+    background-color: white;
+    transition:0.5s;
+    // float:right;
+    // position: relative;
+    // right:350px;
+    &:hover {
+        letter-spacing: 10px; 
+        background-color: black;
+        color:variables.$bg;
+    }
+}
+

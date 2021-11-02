@@ -13,6 +13,7 @@ ul {
   a{
     text-decoration: none;
     letter-spacing: 5px;
+    transition:0.5s;
       &:hover {
         cursor: pointer;
         letter-spacing: 10px;  
@@ -25,24 +26,6 @@ ul {
     overflow: hidden;
   }
 
-//  #li-1 {
-//      animation-delay: 2s;
-//      animation-duration: 0.5s;
-//  }
 
-//  #li-2 {
-//     animation-delay: 1.5s;
-//     animation-duration: 0.5s;
-// }
-
-// #li-3 {
-//     animation-delay: 1s;
-//     animation-duration: 0.5s;
-// }
-
-// #li-4 {
-//     animation-delay: 0.5s;
-//     animation-duration: 0.5s;
-// }
     
     

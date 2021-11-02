@@ -10,17 +10,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="/styles/index.css">
-    <title>Priscilla Silva</title>
+    <link rel="stylesheet" href="/styles/contact.css">
+    <title>Priscilla Silva / Contact</title>
 </head>
 <body>
- 
     <div class="container overflow-hidden">
         <div class="row g-5">
             <div class="col-10">
-                <h1 class="animate__animated animate__slideInUp">Hello, my name is <mark>Priscilla</mark> <mark>Silva</mark> and I'm a 
-                    <mark>Front-End</mark> <mark>Developer.</mark></h1>
+                <div class="animate__animated animate__slideInDown">
+                    <h1 class="animate__animated animate__slideInDown">For inquiries, please fill out the following form:</h1>
+                
+                <form class="animate__animated animate__slideInDown">
+                    <input type="text" id="name" name="name" placeholder="Name" class="animate__animated animate__slideInDown">
+                    <br>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="E-mail" class="animate__animated animate__slideInDown">
+                    <br>
+                    <br>
+                    <textarea name="message" id="message" placeholder="Your message" class="animate__animated animate__slideInDown"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" class="animate__animated animate__slideInDown" id="submit" value="SUBMIT">
+                </form>
             </div>
+        </div>
             <div class="col-2">
                 <nav class="animate__animated animate__slideInDown">
                     <ul class="animate__animated animate__slideInDown">
@@ -34,6 +47,5 @@
         </div>
         
     </div>
-
 </body>
 </html>
