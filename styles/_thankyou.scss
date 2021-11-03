@@ -1,0 +1,16 @@
+@use 'variables';
+@import 'main';
+@import 'sidenav';
+@import 'form';
+
+
+body {
+    background-color: variables.$bg;
+    height: auto;
+    margin: 20px;
+    
+}
+
+h1 {
+    font-size: 60px;
+}
