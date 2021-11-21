@@ -1,0 +1,37 @@
+@use 'variables';
+@import 'main';
+@import 'sidenav';
+
+body {
+    background-color: variables.$bg;
+    height: auto;
+    margin: 20px;
+    overflow: hidden;
+    
+}
+
+.about_content {
+    font-family: variables.$heading-font;
+    font-size: 22px;
+}
+
+.about_education {
+    font-family: variables.$main-font;
+    font-size: 12px;
+}
+
+p {
+  font-family: variables.$main-font;
+  font-size: 12px;  
+}
+
+
+.col-5 {
+    overflow: hidden;
+}
+
+.animate__slideInDown {
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    overflow: hidden;
+}
