@@ -22,7 +22,7 @@ form {
     outline: none;
     transition: 0.1s;
     &:focus {
-        background-color: white;
+        background-color: variables.$bg;
         border:0px;
     }
 }
@@ -38,7 +38,7 @@ form {
     outline: none;
     transition: 0.1s;
     &:focus {
-        background-color: white;
+        background-color: variables.$bg;
         border:0px;
     }
 }
@@ -54,7 +54,7 @@ form {
     outline: none;
     transition: 0.1s;
     &:focus {
-        background-color: white;
+        background-color: variables.$bg;
         border:0px;
     }
 
@@ -67,15 +67,14 @@ form {
     border: 0px;
     font-family: variables.$main-font;
     letter-spacing: 5px;
-    background-color: white;
+    background-color: variables.$bg;
     transition:0.5s;
     // float:right;
     // position: relative;
     // right:350px;
     &:hover {
         letter-spacing: 10px; 
-        background-color: black;
-        color:variables.$bg;
+        color:black;
     }
 }
 
